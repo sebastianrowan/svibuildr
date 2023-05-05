@@ -20,3 +20,9 @@ date: 01 August 2023
 bibliography: paper.bib
 ---
 
+# Summary
+
+`svibuildr` is an R package that allows users to download or construct Social Vulnerability Index datasets as tidyverse dataframes or as simple features dataframes for spatial analyses. `svibuildr` allows users to generate a multi-state SVI in which census tracts or counties are ranked against only other tracts or counties in the study region, rather than relying on national rankings for inter-state analyses. For single-state or nationwide analyses, the package can download pre-compiled datasets directly from the CDC's SVI website. 
+
+# Statement of need
+
