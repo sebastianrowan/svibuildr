@@ -13,3 +13,4 @@ README.qmd
 ^docs$
 ^codecov\.yml$
 ^README_files$
+^joss-paper$
