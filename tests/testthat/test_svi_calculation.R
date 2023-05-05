@@ -3,7 +3,7 @@ test_that(
   {
     expect_error(
       calculate_svi("county", year = 2016, state = "nh"),
-      "SVI calculation currently only available for year 2020."
+      "SVI calculation currently only available for"
     )
   }
 )

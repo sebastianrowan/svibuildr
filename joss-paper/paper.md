@@ -26,3 +26,4 @@ bibliography: paper.bib
 
 # Statement of need
 
+The Social Vulnerability Index (SVI), developed by the U.S. Center for Disease Control and Prevention Agency for Toxic Substance and Disease Registry (ATSDR), is an important tool in many disciplines, allowing researchers to use U.S. Census Bureau data to identify regions in the U.S. with populations that may be more vulnerable to natural hazards @flanagan_social_2011, emerging public health threats @fletcher_social_2021, or other health risks @gay_can_2016.
