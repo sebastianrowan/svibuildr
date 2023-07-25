@@ -66,17 +66,17 @@ calculate_svi <- function(
     geography <- tolower(geography)
     state <- tolower(state)
 
-    if ((length(geography) > 1) || !(geography %in% c("block", "tract", "county"))) {
+    if ((length(geography) > 1) || !(geography %in% c("cbg", "block group", "tract", "county"))) {
         msg <- ("Geography not valid.")
         rlang::abort(msg)
     }
 
-    if (geography == "block") {
+    if (geography %in% c("cbg", "block group")) {
       if (year != 2020) {
-        msg <- "Block-level SVI calculation only available for 2020"
+        msg <- "Block-group-level SVI calculation only available for 2020"
         rlang::abort(msg)
       } else {
-        msg <- ("Block-level SVI calculation is experimental. Use with caution.")
+        msg <- ("Block-group-level SVI calculation is experimental. Use with caution.")
         rlang::warn(msg)
       }
     }
@@ -441,7 +441,7 @@ calculate_svi_2020_block <- function(
     key = NULL, moe_level = 90, cache_table = FALSE,
     ...
 ) {
-
+  return(NA)
 }
 
 #' Calculate the 2018 SVI for the given region
