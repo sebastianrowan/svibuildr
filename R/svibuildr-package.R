@@ -20,9 +20,9 @@
 #' @import tigris
 #' @import withr
 #' @import readr
+#' @importFrom magrittr `%>%`
 #' @importFrom tidyr replace_na
 #' @importFrom glue glue
 #' @importFrom lifecycle deprecated
-#' @importFrom magrittr %>%
 #' @importFrom rlang inform abort arg_match
 NULL
